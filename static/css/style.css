@@ -1,0 +1,1071 @@
+.list{
+padding-top: 44px;
+display: flex;
+}
+header img{
+    max-width: 100%;
+}
+header{
+    z-index: 9999999999;
+}
+
+.info{
+    padding-top: 44px;
+}
+.img{
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.list ul{
+    display: flex;
+}
+.revv{
+    margin-right: 0px;
+}
+.list ul li{
+list-style-type: none;
+margin-right: 30px;
+}
+
+
+.list ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    /* black as my soul */
+
+    color: #000000;
+
+}
+.left{
+    display: block;
+}
+
+.left select {
+    max-width: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 20px;
+    /* black as my soul */
+    margin-bottom: 3px;
+    color: #000000;
+    border: none;
+
+}
+
+.left p a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    /* Herbal Green */
+    
+    color: #319F01;
+    
+}
+
+.right  .op{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    border: none;
+    background-color: #fff;
+    
+    /* Herbal Green */
+    
+    color: #319F01;
+    
+}
+.right p{
+    max-height: 24px;
+    margin-bottom: 3px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+/* black as my soul */
+
+color: #000000;
+}
+.info{
+    display: flex;
+    margin-top: 44px;
+}
+
+/*Section main */
+
+.main{
+    background:  url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    object-fit: fill;
+}
+
+.main h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    /* black as my soul */
+
+    color: #000000;
+
+    margin-top: 133px;
+}
+.main p{
+        /* headers/h3 */
+    max-width: 395px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* or 125% */
+    margin-bottom: 56px;
+    letter-spacing: 0.02em;
+
+    /* black as my soul */
+
+    color: #000000;
+
+}
+
+.main button{
+    margin-bottom: 150px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    /* white marshmallow */
+
+    color: #FFFFFF;
+
+    border: none;
+    /* Inside auto layout */
+    padding: 18px 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #319F01;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+
+.main button:hover{
+    background: #3BBB03;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+
+.main button:active{
+    background: #298601;
+    border-radius: 3px;
+}
+
+
+.advan{
+    justify-content: center;
+    margin-top: 82px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+
+    /* black as my soul */
+
+    color: #000000;
+}
+.advan .ad-inf{
+    background-color: red;
+    justify-content: center;
+}
+.left-img{
+    margin-right: 24px;
+}
+
+.strong-info{
+    max-width: 324px;
+    /* headers/h4 */
+    margin-bottom: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+
+    /* black as my soul */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.simple-info{
+    max-width: 374px;
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+
+/* black as my soul */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.img-text{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 56px;
+}
+.dop-info{
+    max-width: 455px;
+}
+
+/*всегда в наличии*/
+
+.images_1{
+
+    
+    min-height: 194px;
+
+}
+.images_1 img{
+    width: 100%;
+}
+
+.wrapper{
+    max-width: 302px;
+    background-color: #FFFFFF;
+}
+.always{
+    background: #F2EFED;
+}
+.always h2{
+    padding-top: 72px;
+    padding-bottom: 77px;
+    text-align: center;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+.name-tovar{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px 18px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* black as my soul */
+
+    color: #000000;
+}
+.wrapper .rub{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* black as my soul */
+
+    color: #000000;
+
+}
+.wrapper .block-rub{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper input{
+    max-width: 40px;
+    max-height: 20px;
+    position: relative;
+    right: -30px;
+    
+}
+.wrapper button{
+    background: #FFFFFF;
+    box-shadow: 0px 5.10782px 11.4926px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    margin-top: 18px;
+    border: 1px solid #000000;
+    padding: 4px 8px;
+    /* black as my soul */
+    color: #000000;
+
+    position: relative;
+    left: 60%;
+    /* Inside auto layout */
+    margin-bottom: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.al-wr{
+    padding-bottom: 65px;
+}
+
+.always .wrapper button:hover{
+    
+background: #F0F0F0;
+/* black as my soul */
+transition-duration: 0.8s ;
+
+border: 1px solid #000000;
+border-radius: 3px;
+}
+
+/* WHY ME */
+
+.why-me h2{
+    padding-top: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    /* black as my soul */
+    
+    color: #000000;
+    
+}
+
+.why{
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.why img{
+    margin-bottom: 24px;
+}
+.why h4{
+    margin-bottom: 8px;
+}
+
+.creating{
+    background: url('../img/background_crab.png');
+}
+.creating img{
+    position: relative;
+    bottom: -400px;
+    background: none;
+    margin: auto auto;
+    cursor: pointer;
+    z-index: 999;
+}
+.creating h2{
+    padding-top: 72px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    /* black as my soul */
+
+    color: #000000;
+
+}
+.creating div{
+    text-align: center;
+}
+
+.creating video{
+    margin-bottom: 80px;
+}
+
+.forms{
+    background: url('../img/background2_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.forms .container .row .col .main-form{
+    justify-content: end;
+}
+.forms form{
+    
+    display: block;
+}
+.main-form{
+    margin-top: 132px;
+    margin-bottom: 134px;
+    justify-content: end;
+}
+
+.wrapper-form{
+    max-width: 452px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 3px;
+}
+
+input[type='checkbox']:hover{
+    background-color: #298601;
+    color: #298601;
+}
+
+.num::before{
+    content: url('../img/phone.png');
+}
+
+.wrapper-form h2{
+    padding-top: 42px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 11px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #2E363E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.wrapper-form p{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #2E363E;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.wrapper-form input{
+    margin-bottom: 10px;
+    border: 1px solid #7A7A7A;
+border-radius: 5px;
+padding-left:  32px;
+padding-top: 32px;
+}
+.wrapper-form button{
+    width: 90%;
+    margin-bottom: 20.5px;
+    margin-top: 10px;
+    /* Herbal Green */
+border: none;
+background: #319F01;
+border-radius: 5px;
+/* btn/green */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+/* white marshmallow */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 18px 53px;
+}
+
+.main-form  label{
+    margin-left: 8px;
+}
+.main-form .inp{
+    padding-bottom: 27px;
+    width: 90%;
+}
+.main-form img{
+    position: relative;
+    left: 30px;
+}
+
+.partners h2{
+    padding-top: 80px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+margin-bottom: 91px;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+
+.partners img{
+    margin-right: 75px;
+
+}
+.part{
+    margin-bottom: 84px;
+}
+
+
+.reviews h4{
+    /* headers/h4 */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+.reviews{
+    background: url(../img/background_crab.png);
+}
+.reviews h2{
+    margin-bottom: 96px;
+    /* headers/h2 */
+padding-top: 83px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+.reviews p{
+    /* body/18 */
+padding:  0px 32px;
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+
+/* black as my soul */
+
+color: #000000;
+text-align: left;
+margin-top: 31px;
+}
+.reviews .col .rev-main{
+    background: #FFFFFF;
+border: 1px solid #CECECE;
+border-radius: 10px;
+    text-align: center;
+}
+.reviews .col div img{
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+.rev{
+    padding-bottom: 60px;
+}
+
+.cart h2{
+    padding-top: 72px;
+    margin-bottom: 78px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 54px;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+footer p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+/* black as my soul */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+footer .phone p::before{
+    content: url('../img/map-marker.svg');
+    margin-right: 3.5px;
+    background-repeat: no-repeat;
+
+}
+footer .phone p{
+    margin-top: 77px;
+}
+footer img{
+    padding-top: 61px;
+}
+footer .number{
+    margin-top: 77px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+/* black as my soul */
+
+color: #000000;
+
+}
+
+
+footer .number::before{
+    margin-right: 3.5px;
+
+    content: url('../img/phone.png');
+}
+
+.menu{
+    display: none;
+   
+}
+
+.menu button{
+    border: none;
+   background-color: #fff;
+   color: #000000;
+    font-size: 48px;
+
+}
+.menu button i{
+    color: black;
+}
+
+.part img{
+    
+    max-width: 100%;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+.main{
+    padding-top: 38px;
+}
+
+.creating video{
+    max-width: 100%;
+}
+
+
+#exit{
+    border: none;
+}
+
+#right-btn{
+    display: none;
+    font-size: 38px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+@media(max-width:768px){
+    .forms .form{
+        max-width: 234px;
+        max-height: 294px;
+    }
+ 
+    .main-form{
+        padding: 0 42.13px;
+    }
+    .creating img{
+        bottom: -150px;
+    }
+
+    .always .wrapper{
+        max-width: 316px;
+        
+    }
+  
+    .always .ord{
+        margin: 0 auto;
+    }
+    .why-me .why-div{
+        display: flex;
+    }
+    .why-me .why-div .img-why{
+        padding-left: 15px;
+    }
+    .text-why {
+        text-align: start;
+        padding-left: 19.51px;
+    }
+   
+    
+    .part img{
+        margin-bottom: 49px;
+        padding: 0px 52px;
+    }
+}
+
+@media(max-width:991px){
+    .why-div{
+        margin-bottom: 21px;
+    }
+    .part img{
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 49px;
+        text-align: center;
+    }
+    .rev-main{
+        display: flex;
+    }
+    .rev-main img{
+        padding: 14px;
+    }
+    .rev-main{
+        margin-bottom: 16px;
+        font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+
+/* black as my soul */
+
+color: #000000;
+
+    }
+    .foot-number{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        left: 80%;
+        top: 14px;
+
+    }
+    
+    .lst{
+        display: flex;
+    }
+ 
+    .creating img{
+        bottom: -250px;
+    }
+    footer .foot-phone{
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13.7722px;
+        line-height: 17px;
+        /* identical to box height */
+
+
+        /* black as my soul */
+
+color: #000000;
+    }
+    footer img{
+        padding-top: 10px;
+    }
+    footer .number{
+        margin-top: 0;
+    }
+}
+
+@media(max-width:1199px){
+    #right-btn{
+        display: block;
+        
+    }
+    .info{
+        display: none;
+    }
+    .always .wrapper{
+        
+        margin: 0 auto;
+        margin-bottom: 19.73px;
+    } 
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+.part-img{
+    text-align: center;
+}
+
+#city-select::before{
+    content: '';
+    background-image:  url('../img/map-marker.svg');
+}
+
+.select-img{
+    width: 12px;
+    height: 17px;
+    background: url('../img/map-marker.svg');
+}
+.custom-select{
+    display: flex;
+}
+
+
+#phone-number::before{
+    padding-right: 8px;
+    content: url('../img/phone.svg');
+
+
+}
+
+
+.modal-nav{
+    animation: ob;
+    animation-duration: 2s;
+    transition: 3s all;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #1b242f;
+    z-index: 9999999;
+    display: none;
+}
+.modal-nav a{
+    
+    text-align: center;
+    letter-spacing: 25px;
+    margin-bottom: 25px;
+    color: #04c2c9;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    display: block;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+
+#exit:hover{
+    animation: povorot;
+    animation-duration: 2s;
+}
+
+.modal-nav .inf{
+    margin-top: 10vh;
+    display: block;
+}
+
+.modal-nav a:hover{
+    color: #096d70;
+    transition: 1.5s;
+    transform: scale(1.2);
+}
+
+@keyframes ob{
+    from{
+        opacity: 0.1;
+        
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes povorot{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.modall {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-contentt {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red;
+  }
+  
+ header form input, form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+ header form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
